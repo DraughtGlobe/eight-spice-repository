@@ -8,11 +8,11 @@
     display:none;
 }
 #blueBar {
-    left:auto;
-    right:auto;
-    min-width:0;
-    padding-left: 9px;
-    padding-right: 9px;
+    left:auto !important;
+    right:auto !important;
+    min-width:0 !important;
+    padding-left: 9px !important;
+    padding-right: 9px !important;
 }
 #pagelet_welcome_box {
     display:none;
