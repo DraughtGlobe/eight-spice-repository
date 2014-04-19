@@ -11,16 +11,16 @@
         $(document).ready(function() {
             $('#pageLogo a').removeAttr('href').mouseover(function(){
                 console.log('1');
-                $('#pageHead').stop().animate('100', {
+                $('#pageHead').stop().animate({
                     width:'421px',
                     opacity:'1.00'
-                });
+                }, '100');
             }).mouseleave(function(){
                 console.log('2');
-                $('#pageHead').stop().animate('100', {
+                $('#pageHead').stop().animate({
                     width: '22px',
                     opacity:'0.10'
-                });
+                }, '100');
             });
         });
     })(jQuery);
