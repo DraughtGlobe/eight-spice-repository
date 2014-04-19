@@ -4,9 +4,9 @@
     [{
         "title" "Facebook",
         "description": "In development",
-        "author": "pschop" ,
+        "author": "pschop",
         "version": "1.0",
         "matches": ["http(s)?://(www.)?facebook.com.*"],
-        "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/facebook.com"
+        "url": "https://api.github.com/repos/draughtglobe/eight-spice-repository/contents/facebook.com"
     }]
 }
