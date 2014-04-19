@@ -15,7 +15,7 @@
                 page_head_left = false;
                 console.log('1');
                 $('#pageHead').stop().animate({
-                    width:'421px',
+                    width:'492px',
                     opacity:'1.00'
                 }, '100');
             }).mouseleave(function(){
