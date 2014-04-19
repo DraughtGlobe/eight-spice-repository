@@ -12,13 +12,13 @@
             $('#pageLogo a').removeAttr('href').mouseover(function(){
                 console.log('1');
                 $('#pageHead').stop().animate({
-                    width:'421px',
+                    width:'421px !important',
                     opacity:'1.00'
                 }, '100');
             }).mouseleave(function(){
                 console.log('2');
                 $('#pageHead').stop().animate({
-                    width: '22px',
+                    width: '22px !important',
                     opacity:'0.10'
                 }, '100');
             });
