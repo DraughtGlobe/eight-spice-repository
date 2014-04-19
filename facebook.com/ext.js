@@ -6,7 +6,7 @@
     
     jQuery.noConflict();
     
-    if (jQuery) {  
+    if (window.jQuery) {  
         // jQuery is loaded
         alert('yaay');
     } else {
