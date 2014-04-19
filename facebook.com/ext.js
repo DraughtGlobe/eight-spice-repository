@@ -9,7 +9,7 @@
     (function($)
     {
         $(document).ready(function() {
-            $('#pageLogo a').removeAttr('href').mouseover(function(){
+            $('#pageHead').mouseover(function(){
                 console.log('1');
                 $('#pageHead').stop().animate({
                     width:'421px',
