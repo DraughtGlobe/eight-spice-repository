@@ -9,6 +9,7 @@
     (function($)
     {
         $(document).ready(function() {
+            $('#pageHead').width('22px');
             $('#pageHead').mouseover(function(){
                 console.log('1');
                 $('#pageHead').stop().animate({
