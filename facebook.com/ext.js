@@ -6,6 +6,14 @@
     
     jQuery.noConflict();
     
+    if (jQuery) {  
+        // jQuery is loaded
+        alert('yaay');
+    } else {
+        // jQuery is not loaded
+        alert('Naay');
+    }
+    
     (function($)
     {
         $(document).ready(function() {
