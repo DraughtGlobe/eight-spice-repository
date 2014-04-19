@@ -17,7 +17,7 @@
                 });
             }).mouseleave(function(){
                 console.log('2');
-                $('#pageHead').stop.animate('100', {
+                $('#pageHead').stop().animate('100', {
                     width: '22px',
                     opacity:'0.10'
                 });
