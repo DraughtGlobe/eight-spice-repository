@@ -22,10 +22,12 @@
 #pagelet_welcome_box {
     display:none !important;
 }
+/*
 #pageNav > li:not(.firstitem):not(#navJewels)
 {
     display:none !important;
 }
+*/
 #headerArea {
     display:none !important;
 }
