@@ -42,7 +42,7 @@
     */
     padding-right: 1px !important;
     overflow:hidden !important;
-    opacity:0.1 !important;
+    opacity:0.1;
 }
 #headNav {
     width:421px;
