@@ -35,7 +35,7 @@
 }
 */
 #pageHead {
-    width:22px !important;
+    width:22px;
     /*    
     width:auto;
     width:421px;
@@ -45,7 +45,7 @@
     opacity:0.1 !important;
 }
 #headNav {
-    width:421px !important;
+    width:421px;
 }
 
 #pageLogo a {
