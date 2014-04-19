@@ -10,18 +10,37 @@
     {
         $(document).ready(function() {
             $('#pageHead').width('22px');
+            var page_head_left = true;
             $('#pageHead').mouseover(function(){
+                page_head_left = false;
                 console.log('1');
                 $('#pageHead').stop().animate({
                     width:'421px',
                     opacity:'1.00'
                 }, '100');
             }).mouseleave(function(){
+                page_head_left = true;
                 console.log('2');
-                $('#pageHead').stop().animate({
-                    width: '22px',
-                    opacity:'0.10'
-                }, '100');
+                if($('#q').is(':focus'))
+                {
+                    $('#q').bind('focusout', function(e)
+                    {
+                        console.log('this should not occur twice');
+                        if(page_head_left)
+                        {
+                            $('#pageHead').stop().animate({
+                                width: '22px',
+                                opacity:'0.10'
+                            }, '100');
+                        }
+                        $J(this).unbind(e);
+                    })
+                } else {
+                    $('#pageHead').stop().animate({
+                        width: '22px',
+                        opacity:'0.10'
+                    }, '100');
+                }
             });
         });
     })(jQuery);
