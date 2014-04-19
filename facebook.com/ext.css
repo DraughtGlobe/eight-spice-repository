@@ -1,0 +1,49 @@
+#pagelet_sidebar {
+    display:none;
+}
+#pagelet_megaphone {
+    display:none;
+}
+#rightColumnWrapper /*> div:not(.pagelet)*/ {
+    display:none;
+}
+#blueBar {
+    left:auto;
+    right:auto;
+    min-width:0;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+#pagelet_welcome_box {
+    display:none;
+}
+#pageNav > li:not(.firstitem,#navJewels)
+{
+    display:none;
+}
+#headerArea {
+    display:none;
+}
+/*
+.roundedBox { 
+    max-width:auto;
+}
+*/
+#pageHead {
+    width:22px;
+    /*    
+    width:auto;
+    width:421px;
+    */
+    padding-right: 1px;
+    overflow:hidden;
+    opacity:0.1;
+    filter:alpha(opacity=10)
+}
+#headNav {
+    width:421px;
+}
+
+#pageLogo a {
+
+}

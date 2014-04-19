@@ -2,67 +2,11 @@
     "title": "Eight Spice",
     "extensions":
     [{
-        "title": "Gmail no-ads",
-        "description": "Remove ads from Gmail. I'm a paying gmail user, so don't want to see any ads.",
-        "author": "",
+        "title" "Facebook",
+        "description": "In development",
+        "author": "pschop" ,
         "version": "1.0",
-        "matches": ["http(s)?://mail.google.com/.*"],
-        "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/gmail-noads"
-    }, {
-        "title": "LinkedIn no-ads",
-        "description": "Remove ads from LinkedIn",
-        "author": "",
-        "version": "1.0",
-        "matches": ["http(s)?://www.linkedin.com/.*"],
-        "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/linkedin-noads"
-    }, {
-        "title": "BitcoinWisdom",
-        "description": "Remove ads from BitcoinWisdom",
-        "author": "",
-        "version": "1.0",
-        "matches": ["http://bitcoinwisdom.com/.*"],
-        "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/bitcoinwisdom"
-    }, {
-        "title": "Google Black",
-        "description": "Save energy with black google",
-        "author": "NL5887",
-        "version": "1.0",
-        "matches": ["https?://.*google.*/.*"],
-        "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/google-black"
-    }, {
-        "title": "Reddit with Social",
-        "description": "This extender adds a twitter button to Reddit",
-        "author": "NL5887",
-        "version": "1.0",
-        "matches": ["http(s)?://www.reddit.com/.*?/.*?/"],
-        "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/social-reddit"
-    }, {
-        "title": "Hacker News with Social",
-        "description": "This extender adds a twitter button to news.ycombinator.com",
-        "author": "NL5887",
-        "version": "1.0",
-        "matches": ["https://news.ycombinator.com/(news)?"],
-        "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/social-hackernews"
-    }, {
-        "title": "BeeLine Reader",
-        "description": "Save Time. Save Your Eyes. Read With BeeLine.",
-        "author": "@molokoloco",
-        "version": "1.0",
-        "matches": ["http(s)?://.*/.*"],
-        "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/beeline-reader"
-    }, {
-        "title": "Kickass Torrents",
-        "description": "Remove ads",
-        "author": "NL5887",
-        "version": "1.0",
-        "matches": ["http://kickass.to/.*"],
-        "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/kickass.to"
-    }, {
-        "title": "Nu.nl",
-        "description": "Show more text on the frontpage",
-        "author": "dhoogerwerf",
-        "version": "1.0",
-        "matches": ["http(s)?://(www.)?nu.nl.*"],
-        "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/nu.nl"
+        "matches": ["http(s)?://(www.)?facebook.com.*"],
+        "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/facebook.com"
     }]
 }
