@@ -1,8 +1,8 @@
 #pagelet_sidebar {
-    display:none;
+    display:none !important;
 }
 #pagelet_megaphone {
-    display:none;
+    display:none !important;
 }
 #rightCol {
     display:none !important;
@@ -20,14 +20,14 @@
     padding-right: 9px !important;
 }
 #pagelet_welcome_box {
-    display:none;
+    display:none !important;
 }
 #pageNav > li:not(.firstitem):not(#navJewels)
 {
-    display:none;
+    display:none !important;
 }
 #headerArea {
-    display:none;
+    display:none !important;
 }
 /*
 .roundedBox { 
@@ -35,18 +35,17 @@
 }
 */
 #pageHead {
-    width:22px;
+    width:22px !important;
     /*    
     width:auto;
     width:421px;
     */
-    padding-right: 1px;
-    overflow:hidden;
-    opacity:0.1;
-    filter:alpha(opacity=10)
+    padding-right: 1px !important;
+    overflow:hidden !important;
+    opacity:0.1 !important;
 }
 #headNav {
-    width:421px;
+    width:421px !important;
 }
 
 #pageLogo a {
